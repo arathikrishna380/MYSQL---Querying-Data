@@ -12,14 +12,14 @@ The database consists of three interconnected tables:
 1. Database & Table Setup: Database initialization using USE employee; and structured table creation with Primary Key constraints.
 2. Basic Aggregations: Grouping and filtering aggregated metrics using GROUP BY and HAVING clauses (e.g., department employee counts and salary averages).
 
-Inner Joins:
+3. Inner Joins:
 * Joining employees and locations on location_id to map employee names to their assigned locations.
 * Joining employees and departments with WHERE filtering to analyze specific departments (e.g., Design, Marketing).
 
-Left Join:
+4. Left Join:
 * Displaying all departments along with total employee counts, including departments with zero assigned employees.
 
-Right Join:
+5. Right Join:
 * Displaying all locations alongside employee names, returning NULL for locations with no assigned staff.
 
 # How to Run
